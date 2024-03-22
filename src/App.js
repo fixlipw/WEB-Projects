@@ -1,6 +1,22 @@
+// --------------------------- ATIVIDADES ------------------------------------------------------------------------------
+
 // import {MeusDadosV1 as MD1, MeusDadosV2 as MD2, MeusDadosV3 as MD3} from "./components/atividade00/01MeusDados";
 // import MeusDados from "./components/atividade00/02MeusDados";
 // import Temperatura from "./components/atividade00/03Temperatura";
+
+// import Pai from "./components/atividade01/questao01/01Pai";
+
+import {Arena, World} from "./components/atividade01/questao03/03Batalha";
+
+/*function App() {
+    return (
+        <World>
+            <Arena/>
+        </World>
+    );
+}*/
+
+// ---------------------------------------------------------------------------------------------------------------------
 
 //import HelloWorld from "./components/01HelloWorld/HelloWord";
 
@@ -49,13 +65,20 @@
 
 // import {CompA} from "./components/08Contexto/Contexto";
 
-import PokemonPrincipal from "./components/09PokemonContexto/PokemonPrincipal";
+// import PokemonPrincipal from "./components/09PokemonContexto/PokemonPrincipal";
+
+// import Efeito from "./components/10Efeito/Efeito";
+
+// import ComponentePromessa from "./components/11Promessas/MinhaPromessa";
+// import ComponentePromessa from "./components/11Promessas/MeuAsync";
 
 function App() {
     return (
         <div >
             <h1>Desenvolvimento de Software para Web</h1>
-            <PokemonPrincipal />
+            <World>
+                <Arena/>
+            </World>
         </div>
     )
 }
